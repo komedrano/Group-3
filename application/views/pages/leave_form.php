@@ -1,13 +1,14 @@
-		<div class="container mt-5">
+		<div class="container">
 			<div class="mx-auto">
 				<h1>Leave Form</h1>
 				<hr>
 						<div class="row">
 							<div class="col">
+								<label class="label">Name</label>
 								<div class="col form-control"><?php echo $this->session->userdata('name');  ?></div>
 							</div>
 							<div class="col">
-
+								<label class="label">Department</label>
 								<div class="col form-control"><?php echo $this->session->userdata('department');  ?></div>
                 
 							</div>
@@ -15,6 +16,7 @@
 						<br>
 						<div class="row">
 							<div class="col-6">
+								<label class="label">Position</label>
 								<div class="col form-control"><?php echo $this->session->userdata('position');  ?></div>
 							</div>
 						</div>
