@@ -1,6 +1,6 @@
 <div class="container mt-5">
 			<div class="mx-auto">
-				<h1>Strategic Market Risk Consultancy Insurance Agency Inc.</h1>
+				<h1>Staff Home</h1>
 				<hr>
 						<a href="<?php echo site_url(); ?>/employee_info" class="btn btn-primary btn-lg btn-block home-button">Employee Information</a>
 						<br>
